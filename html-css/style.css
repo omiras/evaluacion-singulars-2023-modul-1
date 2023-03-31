@@ -185,9 +185,9 @@ h3 {
   background-color: var(--Very-Light-Gray);
   overflow-x: hidden;
 }
-
+/* Aquiiiiii */
 .hero-img {
-  background: url(images/bg-intro-moble.svg) no-repeat;
+  background: url(images/bg-intro-desktop.svg) no-repeat;
   background-size: 100% 100%;
 }
 
@@ -413,7 +413,7 @@ h3 {
   }
 
   .hero-img {
-    background: url(images/bg-intro-desktop.svg) no-repeat;
+    background: url(images/bg-intro-moble.svg) no-repeat;
     background-position: 30% -50px;
     order: 2;
     flex: 1;
