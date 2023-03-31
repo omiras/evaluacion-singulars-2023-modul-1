@@ -6,9 +6,9 @@ Completa cada ejercicio en su carpeta. Es posible que tengas que añadir alguna 
 
 ### Móvil
 
-1. El menú del header tiene el logo y el menú hamburguesa pegados. Separalos, uno a cada lado.
-2. Usa el valor de la variable CSS "--Dark-Blue" para establecer el color del background del footer.
-3. No queremos que los enlaces de la página estén subrayados.
+1. El menú del header tiene el logo y el menú hamburguesa pegados. Separalos, uno a cada lado. justify-content: space-between
+2. Usa el valor de la variable CSS "--Dark-Blue" para establecer el color del background del footer. background-color: --Dark-blue
+3. No queremos que los enlaces de la página estén subrayados. --> text-decoration: none;
 4. El backgorund image del div con la clase "hero-img" no se ve correctamente.
 5. El texto de los artículos debería verse en columna y el texto alineado como en el diseño (2 líneas de CSS)
 
