@@ -143,6 +143,7 @@ h3 {
 .flex-flow {
   display: flex;
   align-items: center;
+  
 }
 
 .btn {
@@ -159,7 +160,7 @@ h3 {
 }
 
 .header .btn {
-  display: none;
+  display: ;
 }
 
 /* ===================
@@ -173,7 +174,7 @@ h3 {
   padding-block: 1.5rem;
   position: fixed;
   z-index: 100;
-  width: 100%;
+
 }
 
 /* ===================
@@ -247,6 +248,7 @@ h3 {
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   gap: var(--gap-space-l);
+  
 }
 
 .article-card {
@@ -256,6 +258,7 @@ h3 {
   flex-direction: column;
   gap: var(--gap-space-l);
   padding-bottom: var(--gap-space-l);
+  
 }
 
 .article-card img {
@@ -265,9 +268,12 @@ h3 {
 .article-description {
   padding-inline: var(--gap-space-l);
   gap: var(--gap-space-s);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-span {
+.span {
   font-size: 0.75rem;
   display: block;
   text-align: left;
@@ -288,6 +294,7 @@ span {
   flex-direction: column;
   padding-block: var(--large-space);
   gap: var(--gap-space-l);
+  
 }
 
 .logo-social {
@@ -298,16 +305,19 @@ span {
 .social-links {
   gap: var(--gap-space-s);
   cursor: pointer;
+  
 }
 
 .footer-items {
   flex-direction: column;
   justify-content: center;
   gap: var(--gap-space-s);
+  
 }
 
 .footer-item a {
   color: var(--Light-Grayish-Blue);
+  text-decoration: none;
 }
 
 .footer-btn {
@@ -355,6 +365,12 @@ span {
   color: var(--Dark-Blue);
   font-weight: var(--fw-regular);
   font-size: 1.2rem;
+  text-decoration: none;
+
+}
+
+.header .btn {
+    display: none;
 }
 
 .nav-menu-mobile .menu-link:hover {
@@ -468,6 +484,8 @@ span {
     padding-inline: 5%;
     align-items: flex-start;
     justify-content: space-between;
+    background-color: var(--Dark-Blue);
+    
   }
 
   .logo-social {
@@ -479,6 +497,7 @@ span {
     display: flex;
     flex-direction: row;
     gap: 4rem;
+    text-decoration: none;
   }
 
   .footer-items {
@@ -488,7 +507,13 @@ span {
 
 @media (min-width: 1200px) {
 
+  .header .btn {
+    display: inline-block;
+  }
+  
   /* Desktop menu */
+
+
   .hamburger-menu {
     display: none;
   }
