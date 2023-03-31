@@ -95,7 +95,7 @@ svg {
   /* Spacing */
   --large-space: 4rem;
   --gap-space-s: 1rem;
-  --gap-space-l: 2rem;
+  --gap-space-l: 0rem;
 }
 
 /* Font size settings for desktop */
