@@ -142,7 +142,7 @@ h3 {
 
 .flex-flow {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .btn {
@@ -187,7 +187,7 @@ h3 {
 
 .hero-img {
   background: url(images/bg-intro-moble.svg) no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .hero-img img {
@@ -236,6 +236,7 @@ h3 {
 ======================*/
 .articles {
   padding-block: var(--large-space);
+  display:flex;
   flex-direction: column;
   gap: var(--gap-space-l);
   background-color: var(--Very-Light-Gray);
@@ -253,6 +254,7 @@ h3 {
   background-color: var(--White);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+  display: flex;
   flex-direction: column;
   gap: var(--gap-space-l);
   padding-bottom: var(--gap-space-l);
@@ -265,6 +267,8 @@ h3 {
 .article-description {
   padding-inline: var(--gap-space-l);
   gap: var(--gap-space-s);
+  display: flex;
+  flex-direction: column;
 }
 
 span {
@@ -288,6 +292,7 @@ span {
   flex-direction: column;
   padding-block: var(--large-space);
   gap: var(--gap-space-l);
+  background-color: var(--Dark-Blue);
 }
 
 .logo-social {
@@ -348,6 +353,7 @@ span {
   align-items: center;
   justify-content: center;
   gap: var(--gap-space-s);
+  margin-top: 10vh;
 }
 
 .nav-menu-mobile .menu-link {
@@ -355,6 +361,7 @@ span {
   color: var(--Dark-Blue);
   font-weight: var(--fw-regular);
   font-size: 1.2rem;
+  text-decoration: none;
 }
 
 .nav-menu-mobile .menu-link:hover {
@@ -378,6 +385,10 @@ span {
     position: fixed;
     z-index: 100;
     width: 100%;
+  }
+
+  .header .btn {
+    display: block;
   }
 
   /* ===================
@@ -468,6 +479,7 @@ span {
     padding-inline: 5%;
     align-items: flex-start;
     justify-content: space-between;
+    background-color: var(--Dark-Blue);
   }
 
   .logo-social {
@@ -583,6 +595,7 @@ span {
     flex-direction: row;
     padding-inline: 10%;
     align-items: flex-start;
+    background-color: var(--Dark-Blue);
   }
 
   .logo-social {
