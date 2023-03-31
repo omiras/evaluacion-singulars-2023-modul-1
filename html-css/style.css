@@ -40,6 +40,7 @@ a:not([class]) {
 
 a {
   font: inherit;
+  text-decoration: none;
 }
 
 button {
@@ -142,7 +143,7 @@ h3 {
 
 .flex-flow {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .btn {
@@ -159,7 +160,7 @@ h3 {
 }
 
 .header .btn {
-  display: none;
+  display: flex;
 }
 
 /* ===================
@@ -186,7 +187,7 @@ h3 {
 }
 
 .hero-img {
-  background: url(images/bg-intro-moble.svg) no-repeat;
+  background: url(images/bg-intro-mobile.svg) no-repeat;
   background-size: 100% 100%;
 }
 
@@ -260,11 +261,13 @@ h3 {
 
 .article-card img {
   border-radius: 5px 5px 0 0;
+  
 }
 
 .article-description {
   padding-inline: var(--gap-space-l);
   gap: var(--gap-space-s);
+  flex-direction: column;
 }
 
 span {
@@ -288,6 +291,7 @@ span {
   flex-direction: column;
   padding-block: var(--large-space);
   gap: var(--gap-space-l);
+  background-color: var(--Dark-Blue);
 }
 
 .logo-social {
@@ -336,6 +340,9 @@ span {
   transform: translateX(-50%);
   border-radius: 5px;
   transition: all 500ms ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .show-nav-menu-mobile {
@@ -398,7 +405,6 @@ span {
 
   .hero-img {
     background: url(images/bg-intro-desktop.svg) no-repeat;
-    background-position: 30% -50px;
     order: 2;
     flex: 1;
   }
@@ -545,6 +551,7 @@ span {
   .hero-img img {
     position: relative;
     transform: translate(35%, 8%);
+    
   }
 
   .hero-description {
