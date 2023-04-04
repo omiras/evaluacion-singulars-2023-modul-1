@@ -6,23 +6,21 @@ Completa cada ejercicio en su carpeta. Es posible que tengas que añadir alguna 
 
 ### Móvil
 
-1. El menú del header tiene el logo y el menú hamburguesa pegados. Separalos, uno a cada lado. &check;
-2. Usa el valor de la variable CSS "--Dark-Blue" para establecer el color del background del footer. &check;
-3. No queremos que los enlaces de la página estén subrayados. &check;
-4. El backgorund image del div con la clase "hero-img" no se ve correctamente. &check;
-5. El texto de los artículos debería verse en columna y el texto alineado como en el diseño (2 líneas de CSS) &check;
+1. El menú del header tiene el logo y el menú hamburguesa pegados. Separalos, uno a cada lado.
+2. Usa el valor de la variable CSS "--Dark-Blue" para establecer el color del background del footer.
+3. No queremos que los enlaces de la página estén subrayados.
+4. El backgorund image del div con la clase "hero-img" no se ve correctamente.
+5. El texto de los artículos debería verse en columna y el texto alineado como en el diseño (2 líneas de CSS)
 
 ### Desktop
 
-6. El botón del header "Request invite" no aparece, y debería aparecer. &check;
-7. Modifica el valor de la variable adecuada para que se establezca un espacio entre los diferentes artículos cuando estamos en la versión desktop &check;
-8. La imagen de fondo del div con la clase "hero-img" no cubre correctamente el contenedor &check;
+6. El botón del header "Request invite" no aparece, y debería aparecer.
+7. Modifica el valor de la variable adecuada para que se establezca un espacio entre los diferentes artículos cuando estamos en la versión desktop
+8. La imagen de fondo del div con la clase "hero-img" no cubre correctamente el contenedor
 
 ### Móvil/Desktop
 
-9. Los items del menú desplegable deberían estar centrados (3 líneas CSS en el contenedor adecuado) &check;
-
-**Puntos conseguidos** : 9/9
+9. Los items del menú desplegable deberían estar centrados (3 líneas CSS en el contenedor adecuado)
 
 ## Ejercicio Tailwind
 
@@ -40,10 +38,7 @@ Criterios de evaluación
 6. Hay una barra gris que es tan larga como el contenedor main
 7. Existe una barra de color cuya area de color es un % acorda al valor impreso.
 
-**TODO OK**. Tan solo comentar que la clase 'h-8' quizás es innecesaria, fíjate que el setear la altura del DIV hace que el texto no se vea centrado.
-¡Buen trabajo!
-
-**Puntos conseguidos** : 7/7
-
-
-
+<details>
+  <summary>Pista ejercicio 7</summary>
+  <p>Necesitas usar valores arbitrarios con Tailwind. Piensa que el contenedor hijo de color debe ser un % de ancho respecto a su padre</p>
+</details>
