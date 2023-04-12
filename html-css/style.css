@@ -40,6 +40,7 @@ a:not([class]) {
 
 a {
   font: inherit;
+  text-decoration: none;
 }
 
 button {
@@ -174,6 +175,7 @@ h3 {
   position: fixed;
   z-index: 100;
   width: 100%;
+  justify-content: space-between;
 }
 
 /* ===================
@@ -186,7 +188,7 @@ h3 {
 }
 
 .hero-img {
-  background: url(images/bg-intro-moble.svg) no-repeat;
+  background: url(images/bg-intro-mobile.svg) no-repeat;
   background-size: 100% 100%;
 }
 
@@ -265,6 +267,8 @@ h3 {
 .article-description {
   padding-inline: var(--gap-space-l);
   gap: var(--gap-space-s);
+  flex-direction: column;
+  padding: 10px;
 }
 
 span {
@@ -288,6 +292,7 @@ span {
   flex-direction: column;
   padding-block: var(--large-space);
   gap: var(--gap-space-l);
+  background-color: var(--Dark-Blue);
 }
 
 .logo-social {
@@ -398,7 +403,8 @@ span {
 
   .hero-img {
     background: url(images/bg-intro-desktop.svg) no-repeat;
-    background-position: 30% -50px;
+    background-position: 20% 50px;
+    background-size: cover;
     order: 2;
     flex: 1;
   }
@@ -493,6 +499,10 @@ span {
     display: none;
   }
 
+  .header .btn{
+    display: flex;
+  }
+
   .nav-menu {
     position: static;
     background-color: transparent;
@@ -504,6 +514,7 @@ span {
     transform: translateX(0);
     border-radius: none;
     transition: none;
+
   }
 
   .nav-menu-mobile .menu-items {
@@ -633,7 +644,9 @@ span {
   .footer-menu-items {
     justify-content: center;
   }
+
 }
+
 
 /* Classes for JS */
 .modal {
