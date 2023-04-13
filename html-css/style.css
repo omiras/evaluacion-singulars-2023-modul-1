@@ -159,7 +159,7 @@ h3 {
 }
 
 .header .btn {
-  display: none;
+  display: block;
 }
 
 /* ===================
@@ -168,6 +168,7 @@ h3 {
 
 .header {
   background-color: var(--White);
+  justify-content: space-between;
   padding-inline: 5%;
   margin-inline: auto;
   padding-block: 1.5rem;
@@ -263,6 +264,8 @@ h3 {
 }
 
 .article-description {
+  align-items: flex-start;
+  flex-direction: column;
   padding-inline: var(--gap-space-l);
   gap: var(--gap-space-s);
 }
@@ -285,6 +288,7 @@ span {
      Footer
 ======================*/
 .footer {
+  background-color: var(--Dark-blue);
   flex-direction: column;
   padding-block: var(--large-space);
   gap: var(--gap-space-l);
@@ -327,6 +331,8 @@ span {
     Mobile menu
 ======================*/
 .nav-menu-mobile {
+  display: flex;
+  align-items: center;
   position: absolute;
   background-color: var(--White);
   width: 90%;
@@ -398,6 +404,7 @@ span {
 
   .hero-img {
     background: url(images/bg-intro-desktop.svg) no-repeat;
+    background-size: cover;
     background-position: 30% -50px;
     order: 2;
     flex: 1;
@@ -508,6 +515,9 @@ span {
 
   .nav-menu-mobile .menu-items {
     flex-direction: row;
+  }
+  .header .btn {
+    display: block;
   }
 
   /* ===================
